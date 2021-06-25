@@ -47,9 +47,11 @@ do {
             var exer3 = leia.listaExe(); // escolhe um exercicio
             require(json3[exer3].roda);
         break;
+        case 'x':
+            console.log("FIM DO PROGRAMA");
+        return 0;
         default: 
             console.log('LISTA NÃO ENCONTRADA!!'); 
     }
     console.log('##############################################################');
 } while(caso !== 'x');
-console.log('FIM DO PROGRAMA!!');
